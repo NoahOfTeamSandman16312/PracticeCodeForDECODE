@@ -4,7 +4,8 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
-
+ @TeleOp(name="TouchyTesty1", group="Linear Opmode")
+ @Disabled
 
 public class TouchpadDriverTest1 {
     public static void main() {
