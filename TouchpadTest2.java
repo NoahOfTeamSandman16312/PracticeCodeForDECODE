@@ -13,7 +13,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import org.firstinspires.ftc.teamcode.MecanumDrive;
 import org.firstinspires.ftc.teamcode.TestServo;
- @TeleOp(name="TouchyTesty1", group="Linear Opmode")
+ @TeleOp(name="TouchyTesty2", group="Linear Opmode")
  @Disabled
 
 public class TouchpadDriverTest1 {
