@@ -20,8 +20,10 @@ public class TouchpadDriverTest1 {
     public static void main() {
     if(gamepad.1_touchpad_finger_1){
         telemetry.adddata("You put 1 finger on the touchpad at this location /n x:"+gamepad.1_touchpad_finger_1_x+"/n y:"+gamepad.1_touchpad_finger_1_y+"/n Thank you for testing!");
-        telemetry.update();
-      
-    }
-    }
+				}if else(gamepad.1_touchpad_finger_2){
+					 telemetry.adddata("You put 2 fingers on the touchpad at this location /n x:"+gamepad.1_touchpad_finger_2_x+"/n y:"+gamepad.1_touchpad_finger_2_y+"/n Thank you for testing!");
+    }else{
+					telemetry.adddata("You have put no fingers on the touchpad");
+				}
+					telemetry.update();
 }
