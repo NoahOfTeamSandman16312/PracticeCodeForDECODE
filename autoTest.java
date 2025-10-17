@@ -14,4 +14,4 @@ import org.firstinspires.ftc.teamcode.PoseStorage;
 
 @Autonomus
 public class autoTest extends OpMode(){
-  public
+  public class init 
